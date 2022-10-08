@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRO CARD - Material Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="preloader" id="loadefekt"></div>
+
+    <nav class="container" id="navcik" style="display: none;">
+        <ul class="navim sag">
+            <li style="float: left;">
+                <a href="" class="linkim">
+                    <span class="gri baslik">Mario</span>
+                    <span class="yesil baslik">Gómez</span>
+                </a>
+            </li>
+            <!-- <li class="altcizgi">
+                <a href="contact.html" class="linkler">
+                    Contacto
+                    <span class="cizgi"></span>
+                </a>
+            </li> -->
+            <li class="altcizgi">
+                <a href="resume.html" class="linkler">
+                    Curriclum
+                    <span class="cizgi"></span>
+                </a>
+            </li>
+            <li class="altcizgi">
+                <a href="index.html" class="linkler active">
+                    Home
+                    <span class="cizgiactive"></span>
+                </a>
+            </li>
+            <li class="icon">
+                <a href="javascript:void(0);" style="text-decoration: none;" onclick="myFunction()">
+                    <i class="fas fa-bars" style="color: white;"></i>
+
+                </a>
+
+            </li>
+        </ul>
+
+        <div style="clear: both;"></div>
+    </nav>
+    
+    <div class="container" style="margin-top: 5px; display: block;">
+        <ul class="responsiveBar" id="rBar">
+            <li>
+                <a href="">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Curriculum
+                </a>
+            </li>
+            <!-- <li>
+                <a href="">
+                    Contacto
+                </a>
+            </li> -->
+        </ul>
+    </div>
+
+    <div class="container icerigim" id="icerik" style="display: none;">
+        <div class="row satir1">
+            <div class="col-lg-4 ml-4">
+                <img src="foto.jpg" class="resmim" alt="galip.jpg">
+            </div>
+            <div class="col-lg ml-0 mt-5">
+                <h1><b>Mario Gómez<b></h1>
+                <p  style="opacity: .7;">Desarrollador Web</p>
+                <!-- <a href="https://www.instagram.com/gaaliip/" class="iconlar" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>-->
+                <a href="https://github.com/MariioG" class="iconlar" target="_blank"><i
+                        class="fab fa-github"></i></a> 
+            </div>
+        </div>
+        <div class="row satir2">
+            <div class="col-lg-6 mt-5">
+                <h3><b>Sobre</b> <span class="yesil">Mi</span></h3>
+                <p style="opacity: .7;">Hola! Me llamo Mario Gómez. Me considero una persona ambiciosa, amigable y que siempre esta dispuesto a hacer las cosas para el bien del grupo. 
+                    Ademas suelo caer muy bien a la gente que no me conoce. También soy una presona respetuosa, con muchas ganas de aprender y me encanta trabajar en equipo.</p>
+                <button type="button" class="butonum"><a onclick="window.print();return false"><b>DOWNLOAD RESUME</b></a></button>
+            </div>
+            <div class="col-lg-6 mt-5">
+                <ul class="info-list">
+                    <li>
+                        <span class="title">Edad</span>
+                        <span class="value">19</span>
+                    </li>
+                    <li>
+                        <span class="title">Residencia</span>
+                        <span class="value">España</span>
+                    </li>
+                    <li>
+                        <span class="title">Dirección</span>
+                        <span class="value">Barcelona, España</span>
+                    </li>
+                    <li>
+                        <span class="title">e-mail</span>
+                        <a href="mailto:mgomezmanjon@gmail.com" class="mail">mgomezmanjon@gmail.com</a>
+                    </li>
+                    <li>
+                        <span class="title">Disponibilidad</span>
+                        <span class="value">Disponible</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
